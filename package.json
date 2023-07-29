@@ -1,0 +1,40 @@
+{
+  "name": "shopify_dawn_vue_yarn",
+  "version": "1.0.0",
+  "description": "shopify theme with dawn 2.0 yarn",
+  "main": "webpack.config.js",
+  "engines": {
+    "node": ">=14.15.4",
+    "npm": ">=6.14.10"
+  },
+  "scripts": {
+    "watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "deploy": "webpack --mode=production && shopify-themekit deploy"
+  },
+  "dependencies": {
+    "@shopify/themekit": "^1.1.6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "6.4.1",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-webpack-plugin": "^2.4.1",
+    "glob": "7.1.3",
+    "mini-css-extract-plugin": "^1.3.4",
+    "vue": "^2.5.17",
+    "webpack": "5.0.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-shell-plugin-next": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyanshu92/shopify_theme_vue_yarn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyanshu92/shopify_theme_vue_yarn/issues"
+  },
+  "homepage": "https://github.com/divyanshu92/shopify_theme_vue_yarn#readme"
+}

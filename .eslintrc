@@ -1,0 +1,26 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["prettier"],
+    "env": {
+      "browser": true
+    },
+    "rules": {
+    "indent": [2, 2],
+      "space-before-function-paren": ["error", "never"],
+      "no-var": "error",
+      "prefer-arrow-callback": "error",
+      "quotes": ["error", "single"],
+      "comma-dangle": ["error", "never"],
+      "semi": "off",
+      "no-debugger": "warn",
+      "no-tabs": 0,
+      "no-new": 0,
+      "no-unused-vars": ["warn", {"args": "none"}]
+    }
+  }
+  
+  
+  
+  
+  
+  

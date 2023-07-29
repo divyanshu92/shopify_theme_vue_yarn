@@ -1,0 +1,3 @@
+src/assets/*.js
+src/scripts/vendor/*.js
+src/scripts/modernizr.min.js

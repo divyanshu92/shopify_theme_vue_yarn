@@ -1,0 +1,14 @@
+development:
+  password: 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
+  theme_id: 152694456637
+  store: divyanshu-vue-project.myshopify.com
+  directory: src/
+  ignore_files: 
+   - settings_data.json
+production:
+  password: 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
+  theme_id: 152694456637
+  store: divyanshu-vue-project.myshopify.com
+  directory: src/
+  ignore_files: 
+   - settings_data.json
